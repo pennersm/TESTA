@@ -6,6 +6,7 @@ extends:
 
 labels:
   collection: isThisCheckedatAll
+  description: lets try a real description of the damed repo
 
 variables:
   - name: FW_NAME
