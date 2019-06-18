@@ -5,7 +5,7 @@ type: panos
 extends:
 
 labels:
-  service_type: mobile_base_panos
+  collection: isThisCheckedatAll
 
 variables:
   - name: FW_NAME
