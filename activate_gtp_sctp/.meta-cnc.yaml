@@ -3,9 +3,8 @@ label: v8.1 Activate GTP and SCTP logging   # this is left column "Label" under 
 description: Activation of GTP and SCTP capabilities # this is the description beside the label (right column)
 type: panos
 extends:
-
 labels:
-  Collection: MobileSkillet 
+  collection: MobileSkillet 
 
 variables:
   - name: PLACEHOLDER
