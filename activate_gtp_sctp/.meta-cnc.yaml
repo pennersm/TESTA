@@ -5,7 +5,7 @@ type: panos
 extends:
 
 labels:
-  service_type: mobile_panos
+  Collection: MobileSkillet 
 
 variables:
   - name: PLACEHOLDER
