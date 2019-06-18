@@ -2,10 +2,9 @@ name: mobile-roaming-v81
 label: v8.1 Mobile Roaming Snippets
 description: Mobile Roaming Configuration
 type: panos
-extends: mobile-baseline-v81
-
+extends: 
 labels:
-  service_type: mobile_panos
+  collection: MobileSkillet
 
 variables:
   - name: MME_SUBNET
