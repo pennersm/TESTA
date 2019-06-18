@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------
+# skillet preamble information used by panhandler
+# unique snippet name
+name: UniqueNameofSnippet of Snippet MAIN snippet
+# label used for menu selection
+label: MaineLabelIn2ndRow in 2nd row 
+description: Description of the deszcription
+type: panos
+extends:
+labels: MAINmorelabels labels second time
+  collection:
+    - MAINSPcollection the collection
+# end of preamble section
+# ---------------------------------------------------------------------
+# variables section
+#
+variables:
+#
+ - name: UEIPPool
+   description: IP Pool for own subscribers UE
+   default: 100.64.0.0/16
+   type_hint: text
+
+ - name: SFN35ServerIP
+   description: IP address of SFN3.5 Server
+   default: 10.0.0.1
+   type_hint: text
+
+ - name: TAPNIC
+   description: Interface for TAP zone
+   default: ethernet1/1
+   type_hint: text
+#
+# ---------------------------------------------------------------------
+# snippets section
+# ---------------------------------------------------------------------
+# snippets used for api configuration including xpath and element as file name
+# files will load in the order listed
+snippets:
+#
