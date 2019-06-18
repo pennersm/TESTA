@@ -16,12 +16,12 @@ labels: MAINmorelabels labels second time
 #
 variables:
 #
- - name: UEIPPool
+ - name: mUEIPPool
    description: IP Pool for own subscribers UE
    default: 100.64.0.0/16
    type_hint: text
 
- - name: SFN35ServerIP
+ - name: mSFN35ServerIP
    description: IP address of SFN3.5 Server
    default: 10.0.0.1
    type_hint: text
